@@ -10,4 +10,5 @@ Firstly, zero-fill the original FID with zeros to match the network input dimens
 ## Step 2: Process the 'data.mat' file using the network. 
 Run the 'detector.py' file with loading the trained network weight file named 'net.pt' in the 'params' folder to process the data. The output of the network will be saved in the '.mat' format in the 'predict' folder, and can be further visualized through plotting using the 'plot_result.m' file.
 # 3. Experimental data
-Four experimental data including 'exp_asarone.mat', 'exp_azithromycin.mat', 'exp_estradiol.mat', 'exp_mixture1.mat', 'exp_mixture2.mat', 'exp_mixture3.mat', and 'exp_mixture1.mat' used in our manuscript are provided in the 'exp' folder, which can be used as example data.
+
+Four experimental data including 'exp_asarone.mat', 'exp_azithromycin.mat', 'exp_estradiol.mat', 'exp_mixture1.mat', 'exp_mixture2.mat', 'exp_mixture3.mat', and 'exp_mixture4.mat' used in our manuscript are provided in the 'exp' folder, which can be used as example data.
